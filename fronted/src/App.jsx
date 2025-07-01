@@ -19,8 +19,8 @@ import ShowPatient from './components/Doctors/patient/ShowPatient';
 import AboutUs from './components/AboutUs';
 import ManageAvailability from './components/Doctors/Availability/ManageAvailability';
 import ContactUs from './components/ContactUs';
-// import ChatBoard from './components/ChatBoard';
-import AyurvedicChat from './components/AyurvedicChat';
+import ChatBoard from './components/ChatBoard';
+// import AyurvedicChat from './components/AyurvedicChat';
 import BookAppointment from './components/Patients/Appointments/BookAppointments';
 import ShowAvailableDoctor from './components/Patients/AvailableDoctor/ShowAvailableDoctor';
 
@@ -52,8 +52,8 @@ function App() {
         <Route path="/patient/showavailabledoctor" element={<ShowAvailableDoctor />} />
         
       </Routes>
-      {/* <ChatBoard /> */}
-      <AyurvedicChat/>
+      <ChatBoard />
+      {/* <AyurvedicChat/> */}
     </Router>
     </>
 
